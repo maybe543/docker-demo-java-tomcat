@@ -1,4 +1,4 @@
-FROM daocloud.io/wsz543/docker-maven-tomcat-base-image:latest
+FROM daocloud.io/wsz543/docker-maven-tomcat-base-image:master-init
 
 ADD pom.xml /tmp/build/
 RUN cd /tmp/build && mvn -q dependency:resolve
