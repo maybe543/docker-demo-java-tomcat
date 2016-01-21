@@ -9,7 +9,7 @@
  
     <servlet>
         <servlet-name>EntryServlet</servlet-name>
-        <servlet-class>Servlet.EntryServlet</servlet-class>
+        <servlet-class>wechat.Servlet.EntryServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EntryServlet</servlet-name>
